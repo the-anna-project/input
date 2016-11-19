@@ -5,7 +5,7 @@ import (
 )
 
 // New creates a new input collection.
-func NewCollection() servicespec.InputCollection {
+func New() servicespec.InputCollection {
 	return &collection{}
 }
 
